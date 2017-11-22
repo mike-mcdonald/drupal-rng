@@ -25,14 +25,17 @@
   }
 
   .entities {
-    &> .details-wrapper {
-      display: flex;
+    .person-container {
+      width: 75%;
+      float: left;
+    }
 
-      > .person-controls {
+    .person-controls {
         display: flex;
         flex-direction: column;
-      }
-    }
+        width: 25%;
+        float: left;
+    }    
   }
 
   fieldset.person-type {
